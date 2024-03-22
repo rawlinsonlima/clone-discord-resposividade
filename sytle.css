@@ -1,0 +1,219 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: 'open sans';
+   
+}
+
+h1 {
+    font-family: 'luckiest guy';
+}
+
+h2 {
+    font-weight: bold;
+    color: #23272A;
+}
+
+p {
+    margin: 1rem;
+    text-align: start;
+}
+
+a {
+    text-decoration: none;
+    margin: auto;
+}
+  
+.cabecalho {  
+    background-image: url('./img/Header\ Background.png');
+    background-repeat: none;    
+}
+
+#conteudo-cabecalho {
+    display: flex;  
+    flex-direction: column;
+    padding: 2rem;
+    align-items: auto;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+
+.titulo-principal {    
+    font-size: 2rem;   
+    width: 278px;    
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;   
+}
+
+.botao-download {
+    background-color: #ffffff;
+    border-radius: 1.75rem;
+    height: 3.5rem;
+    width: 20rem;
+    margin: auto;           
+}
+
+.botao-link {
+    background-color: #000000;    
+    border-radius: 1.75rem;
+    height: 3.5rem;
+    width: 20rem;
+    margin: 0.5rem auto;
+}
+
+.botao-download-texto {
+    color: #23272A;
+}
+
+.botao-link-texto {
+    color: #FFFFFF;
+}
+
+.imagens-de-secao {
+    max-width: 100%;
+    margin: 1.5rem 1rem;    
+}
+
+.imagens-de-secao-final {
+    max-width: 90%;
+    margin: 1.5rem 1rem;
+}
+
+.container-secao-fb {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1.5rem 2.5rem;
+}
+
+.container-secao-fc {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #F6F6F6;
+}
+
+.container-secao-fc-final {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #F6F6F6;
+}
+
+.titulo-secao {
+    font-size: 1.5rem;
+    font-weight: 800;
+    width: 23rem;
+    margin: auto;
+}
+
+.texto-secao {
+    width: 23rem;
+    margin: 0rem auto 2rem;
+}
+
+.titulo-secundario {
+    font-size: 2rem;
+    width: 23rem;
+    margin: auto;
+}
+
+.rodape {
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.imagem-rodape {
+    max-width:30%;
+    margin: 1rem auto; 
+}
+
+@media only screen and (min-width: 600px) {
+    .cabecalho {
+        width: 100%;
+            
+    }
+
+    .paragrafo-cabecalho {
+        text-align: center;
+    }
+
+    #conteudo-cabecalho {
+        align-items: center;
+        width: 50%;
+        margin: auto;
+        
+    }
+
+    .titulo-principal {
+        text-align: center;
+        width: 313px;
+    }
+
+    .botoes {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .container-secao-fb {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .container-secao-fc {
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .divisao-secao {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 2rem;
+        
+    }
+
+    .container-secao-fc-final {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: auto;
+        margin: auto;
+    }
+
+    .titulo-secundario {
+        width: 25rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .texto-secao-final {
+        width: 50rem;
+        margin: 0rem auto 2rem;
+        text-align: start;
+    }
+
+    .imagens-de-secao-final {
+        max-width: 100%;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagem-rodape {
+        max-width:15%;
+        margin: 2rem auto;
+    }
+       
+
+}
